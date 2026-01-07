@@ -5,7 +5,7 @@ module.exports = () => {
 
     if (ctx.method === 'GET' && ctx.url.startsWith('/api/')) {
       console.log("test test")
-      ctx.set('Cache-Control', 'max-age=86400');
+      ctx.set('Cache-Control', 'max-age=86300');
     }
   };
 };
